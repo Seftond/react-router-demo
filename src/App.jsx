@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.css';
-
+import { Routes, Route} from 'react-router-dom';
+import About from './components/About';
+import Contact from './components/Contact'
+import routes from './routes';
 function App() {
   return (
-    <p>
-      Cleanedup React App
-    </p>
+    <>
+    <nav>
+    {routes}
+    </nav>
+    </>
   );
 }
 
