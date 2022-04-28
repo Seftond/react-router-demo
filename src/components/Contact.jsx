@@ -1,9 +1,11 @@
-import React from 'react'
-
-function COntact() {
+import React from 'react';
+import Header from './Header';
+function Contact() {
   return (
-    <div>COntact</div>
+    <>
+    <Header/>
+    </>
   )
 }
 
-export default COntact
+export default Contact
